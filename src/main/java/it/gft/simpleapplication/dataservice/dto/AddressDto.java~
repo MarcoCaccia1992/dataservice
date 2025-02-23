@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 public class AddressDto {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_address")
     private Long idAddress;
 

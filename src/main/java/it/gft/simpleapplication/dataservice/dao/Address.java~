@@ -1,0 +1,4 @@
+package it.gft.simpleapplication.dataservice;
+
+public class Address {
+}
