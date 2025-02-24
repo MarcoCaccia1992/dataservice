@@ -1,0 +1,25 @@
+package it.gft.simpleapplication.dataservice.dao;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class AccountData {
+
+    private Long idAccountData;
+
+    private String name;
+
+    private String surname;
+
+    private Long phoneNumber;
+
+    private String email;
+
+}

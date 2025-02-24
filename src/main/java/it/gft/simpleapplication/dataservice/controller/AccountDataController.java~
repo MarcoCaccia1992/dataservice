@@ -1,0 +1,21 @@
+package it.gft.simpleapplication.dataservice.controller;
+
+import it.gft.simpleapplication.dataservice.dao.Address;
+import it.gft.simpleapplication.dataservice.serviceimpl.AddressServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/accountdata")
+public class AccountDataController {
+
+    @Autowired
+    private AddressServiceImpl addressServiceImpl;
+
+    @RequestMapping(value = "/saveaccountdata", method = RequestMethod.POST, produces = "application/json")
+    @ResponseBody
+    private String saveAddress(@RequestBody Address address) {
+        return addressServiceImpl.saveAddress(address).toString();
+
+    }
+}

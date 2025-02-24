@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b4be2ab-c944-4fe1-a826-e827bc46be52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/controller/AccountDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dao/AccountData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/repository/AccountDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/service/AccountDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/serviceimpl/AccountDataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/controller/AddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dao/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dao/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dto/AddressDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dto/AddressDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/serviceimpl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/serviceimpl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dto/AccountDataDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dto/AccountDataDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dto/JobsDto.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,6 +58,11 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IntelliJProjects\dataservice\src\main\java\it\gft\simpleapplication\dataservice\repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.gft.simpleapplication.dataservice.controller" />
+      <recent name="it.gft.simpleapplication.dataservice.serviceimpl" />
+      <recent name="it.gft.simpleapplication.dataservice.service" />
     </key>
   </component>
   <component name="RunManager">

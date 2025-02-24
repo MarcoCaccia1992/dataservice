@@ -1,0 +1,4 @@
+package it.gft.simpleapplication.dataservice.dao;
+
+public class AccountData {
+}
