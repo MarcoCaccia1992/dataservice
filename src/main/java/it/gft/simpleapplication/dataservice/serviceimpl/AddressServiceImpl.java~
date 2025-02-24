@@ -14,7 +14,14 @@ public class AddressServiceImpl implements AddressService {
     private AddressRepository addressRepository;
 
     @Override
-    public Address saveAddress(AddressDto address) {
-        return addressRepository.save(address);
+    public String saveAddress(AddressDto address) {
+        AddressDto dto = new AddressDto();
+        dto.setCity(address.getCity());
+        dto.setRegion(address.getRegion());
+        dto.setState(address.getState());
+        dto.setStreet(address.getStreet());
+        dto.setStreetNumber(address.getStreetNumber());
+
+        return addressRepository.save(dto).toString();
     }
 }

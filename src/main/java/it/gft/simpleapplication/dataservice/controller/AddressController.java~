@@ -16,7 +16,7 @@ public class AddressController {
 
     @RequestMapping(value = "/saveaddress", method = RequestMethod.POST, produces = "application/json")
     @ResponseBody
-    private String saveAddress(@RequestBody Address address) {
+    private String saveAddress(@RequestBody AddressDto address) {
         return addressServiceImpl.saveAddress(address).toString();
 
     }

@@ -13,7 +13,8 @@ import lombok.NoArgsConstructor;
 public class AddressDto {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "address_seq")
+    @SequenceGenerator(name = "address_seq", sequenceName = "address_sequence", initialValue = 1, allocationSize = 1)
     @Column(name = "id_address")
     private Long idAddress;
 

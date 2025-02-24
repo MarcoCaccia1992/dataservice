@@ -9,5 +9,5 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface AddressService  {
-    String saveAddress(AddressDto address);
+    String saveAddress(Address address);
 }
