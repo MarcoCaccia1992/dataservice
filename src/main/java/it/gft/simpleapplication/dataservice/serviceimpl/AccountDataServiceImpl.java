@@ -1,31 +1,57 @@
 package it.gft.simpleapplication.dataservice.serviceimpl;
 
 import it.gft.simpleapplication.dataservice.dao.AccountData;
-import it.gft.simpleapplication.dataservice.dao.Address;
 import it.gft.simpleapplication.dataservice.dto.AccountDataDto;
-import it.gft.simpleapplication.dataservice.dto.AddressDto;
 import it.gft.simpleapplication.dataservice.repository.AccountDataRepository;
-import it.gft.simpleapplication.dataservice.repository.AddressRepository;
 import it.gft.simpleapplication.dataservice.service.AccountDataService;
-import it.gft.simpleapplication.dataservice.service.AddressService;
+import it.gft.simpleapplication.dataservice.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.CollectionUtils;
+
+import java.util.List;
 
 @Service
 public class AccountDataServiceImpl implements AccountDataService {
 
     @Autowired
-    private AccountDataRepository addressRepository;
+    private AccountDataRepository accountDataRepositorty;
+
+    @Autowired
+    private Utils utils;
+
 
     @Override
+    @Transactional
     public String saveAccountData(AccountData accountData) {
-        AccountDataDto dto = new AccountDataDto();
-        dto.setName(accountData.getName());
-        dto.setSurname(accountData.getSurname());
-        dto.setPhoneNumber(accountData.getPhoneNumber());
-        dto.setEmail(accountData.getEmail());
 
+            AccountDataDto dto = new AccountDataDto();
+            dto.setName(accountData.getName());
+            dto.setSurname(accountData.getSurname());
+            dto.setPhoneNumber(accountData.getPhoneNumber());
+            dto.setEmail(accountData.getEmail());
 
-        return addressRepository.save(dto).toString();
+            accountDataRepositorty.save(dto);
+
+        return accountData.toString();
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+

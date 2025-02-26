@@ -13,8 +13,7 @@ import lombok.NoArgsConstructor;
 public class AccountDataDto {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "address_seq")
-    @SequenceGenerator(name = "account_data_seq", sequenceName = "account_data_sequence", initialValue = 1, allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_account_data")
     private Long idAccountData;
 
@@ -29,5 +28,6 @@ public class AccountDataDto {
 
     @Column(name = "email")
     private String email;
+
 
 }

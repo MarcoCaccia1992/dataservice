@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b4be2ab-c944-4fe1-a826-e827bc46be52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/controller/AccountDataController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dao/AccountData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/repository/AccountDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/service/AccountDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/serviceimpl/AccountDataServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/DataserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/DataserviceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dto/AccountDataDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dto/AccountDataDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/dto/JobsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/repository/AccountDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/repository/AccountDataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/service/AccountDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/service/AccountDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/serviceimpl/AccountDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/serviceimpl/AccountDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "feature/MarcoProjects/GET__SERVICE",
+    "git-widget-placeholder": "feature/MarcoProjects/SERVICIES",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/IntelliJProjects/dataservice/src/main/java/it/gft/simpleapplication/dataservice"
   }
@@ -133,7 +131,37 @@
           <line>19</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/gft/simpleapplication/dataservice/utils/Utils.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="dtoListAfterSaveOrdered.get(5)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
